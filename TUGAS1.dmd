@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TUGAS1" id="2D1D6651-7B71-CD90-B6A9-C20237469E82" version="3.5">
+<createdBy>Owner</createdBy>
+<createdTime>2024-10-09 03:49:04 UTC</createdTime>
+<ownerDesignName>TUGAS1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2D1D6651-7B71-CD90-B6A9-C20237469E82</designId>
+</OSDM_Design>

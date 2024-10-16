@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_14" directorySegmentName="seg_0" id="69E685DF-D560-9AAA-3EB6-9DBED9A021F0">
+<createdBy>Owner</createdBy>
+<createdTime>2024-10-09 14:24:36 UTC</createdTime>
+<ownerDesignName>TUGAS1</ownerDesignName>
+<engineerTo>
+<item key="39F81C1E-B61D-4A98-755F-21B314CD7550" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Memesan</nameOnSource>
+<nameOnTarget>Rincian</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>32700C33-5F3D-30A1-0041-E53D099FD862</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>24A502EB-A753-1116-8FD5-3DC22629C0D5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
