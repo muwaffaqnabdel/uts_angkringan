@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33BDC1B0-3FF4-492E-FD14-A190B5ACBE3F" name="Anggota">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-11 06:27:17 UTC</createdTime>
+<ownerDesignName>UTS</ownerDesignName>
+<engineerTo>
+<item key="1EFAAA9E-D995-11A0-D8C2-AB18B204DF54" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_anggota" id="BFA1086F-B675-5629-436F-C1A9B9F64A52">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-11 06:27:27 UTC</createdTime>
+<ownerDesignName>UTS</ownerDesignName>
+<engineerTo>
+<item key="1EFAAA9E-D995-11A0-D8C2-AB18B204DF54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama" id="D42A8D81-C88E-26E2-4550-7B089E013EFB">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-11 06:27:43 UTC</createdTime>
+<ownerDesignName>UTS</ownerDesignName>
+<engineerTo>
+<item key="1EFAAA9E-D995-11A0-D8C2-AB18B204DF54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIM" id="6A340588-1432-B06A-8EF7-6AD18C4FD927">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-11 06:28:02 UTC</createdTime>
+<ownerDesignName>UTS</ownerDesignName>
+<engineerTo>
+<item key="1EFAAA9E-D995-11A0-D8C2-AB18B204DF54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nomor_telepon" id="80410E26-9CC7-87C0-3954-1D62F5B51717">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-11 07:18:12 UTC</createdTime>
+<ownerDesignName>UTS</ownerDesignName>
+<engineerTo>
+<item key="1EFAAA9E-D995-11A0-D8C2-AB18B204DF54" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AAE154C4-AE47-5AA0-C6E4-5908FBD540E5" name="Pemilik PK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-11 06:27:41 UTC</createdTime>
+<ownerDesignName>UTS</ownerDesignName>
+<engineerTo>
+<item key="1EFAAA9E-D995-11A0-D8C2-AB18B204DF54" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFA1086F-B675-5629-436F-C1A9B9F64A52</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
